@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+.project-detailed-view {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6rem 1.25rem 4rem 1.25rem; 
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.project-detail-section {
+    background-color: var(--color-bg-second);
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 24px var(--color-accent);
+}
+
+.project-detail-section h1 {
+    font-size: 1.75rem;
+    color: var(--color-text);
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.project-detail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.project-text-side p {
+    color: var(--color-text-second);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.project-text-side p:last-child {
+    margin-bottom: 0;
+}
+
+.project-image-side {
+    width: 100%;
+}
+
+.project-image-side img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+}
+
+@media screen and (min-width: 992px) {
+    .project-detailed-view {
+        max-width: 75%;
+        margin: 0 auto;
+        padding: 9rem 2rem 6rem 2rem; 
+        gap: 5rem;
+    }
+
+    .project-detail-section {
+        padding: 4.5rem;
+        transition: transform 0.25s ease,
+                    box-shadow 0.25s ease
+    }
+
+    .project-detail-section:hover {
+        transform: translateY(-6px);
+        border-color: var(--color-accent);
+        box-shadow: 0 24px 48px var(--color-accent)
+    }
+
+    .project-detail-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        display: inline-block;
+        position: relative;
+    }
+
+    .project-detail-section h1::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background-color: var(--color-accent);
+        border-radius: 2px;
+    }
+
+    .project-detail-container {
+        flex-direction: row-reverse;
+        gap: 4.5rem;
+        align-items: center;
+    }
+
+    .project-text-side {
+        flex: 1.2;
+    }
+
+    .project-image-side {
+        flex: 1;
+        max-width: 45%;
+    }
+
+    .project-text-side p {
+        font-size: 1.15rem;
+        line-height: 1.8;
+        margin-bottom: 1.5rem;
+    }
+
+    .project-image-side img {
+        max-height: 420px;
+        transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+                    border-color 0.4s ease;
+    }
+
+    .project-detail-section:hover .project-image-side img {
+        transform: scale(1.02);
+        border-color: var(--color-accent);
+    }
+}

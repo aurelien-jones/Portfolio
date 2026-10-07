@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jones Aurelien</title>
+    <link rel="stylesheet" href="CSS/Nav.css">
+    <link rel="stylesheet" href="CSS/Footer.css">
+    <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="nav-container">
+    <a href="#" class="open-btn icon icon-menu"></a>
+    
+    <nav class="burger">
+      <a href="#" class="close-btn">X</a>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="#Experience" data-i18n="nav_experience"></a></li>
+        <li><a href="#Competence" data-i18n="nav_skills"></a></li>
+        <li><a href="#Propos" data-i18n="nav_about"></a></li>
+        <li><a href="#Cv" data-i18n="nav_cv"></a></li>
+        <li><a href="#Contact" data-i18n="nav_contact"></a></li>
+        <li> <div class="lang-switcher">
+              <button id="lang-toggle-btn" onclick="toggleLanguage()">
+                <span id="lang-toggle-flag" class="fp"></span> 
+                <span id="lang-toggle-text"></span>
+              </button>
+            </div>
+        </li>
+        <li><button id="theme-toggle">THEME</button></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header>
+    <canvas id="myCanvas"></canvas>
+  </header>
+
+  <main>
+    <!-- Experience SECTION -->
+    <section id="Experience">
+      <h1 data-i18n="section_experience_title"></h1>
+      <div class="project-grid">
+        <div class="project-item">
+          <h2 data-i18n="experience_project1_title"></h2>
+          <p data-i18n="experience_project1_desc"></p>
+          <a class="project-hint" href="project_page.html" data-i18n="experience_click_info"></a>
+        </div>
+        <div class="project-item">
+          <h2 data-i18n="experience_project2_title"></h2>
+          <p data-i18n="experience_project2_desc"></p>
+          <a class="project-hint" href="project_page.html" data-i18n="experience_click_info"></a>
+        </div>
+        <div class="project-item">
+          <h2 data-i18n="experience_project3_title"></h2>
+          <p data-i18n="experience_project3_desc"></p>
+          <a class="project-hint" href="project_page.html" data-i18n="experience_click_info"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competence SECTION -->
+    <section id="Competence">
+      <h1 data-i18n="section_skills_title"></h1>
+
+      <div class="skills-category">
+        <h2><i class="fa-solid fa-language"></i> <span data-i18n="skills_languages"></span></h2>
+        <div class="skills-grid">
+        <div class="skill-item">
+          <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/fr.svg" alt="French Flag" class="skill-flag">
+          <h3 data-i18n="skills_fr_title"></h3>
+          <p data-i18n="skills_fr_desc"></p>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/gb.svg" alt="UK Flag" class="skill-flag">
+          <h3 data-i18n="skills_en_title"></h3>
+          <p data-i18n="skills_en_desc"></p>
+        </div>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h2><i class="fa-solid fa-code"></i> <span data-i18n="skills_tech"></span></h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <i class="devicon-java-plain colored"></i>
+            <h3>Java</h3>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-javascript-plain colored"></i>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-python-plain colored"></i>
+            <h3>Python</h3>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-r-plain colored"></i>
+            <h3>R</h3>
+          </div>
+          <div class="skill-item">
+              <i class="devicon-java-plain colored split-icon"></i>
+              <h3>JavaFX / FXML</h3>
+              <p class="skill-sub">Scene Builder</p>
+        </div>
+        <div class="skill-item">
+              <i class="devicon-bash-plain colored split-icon"></i>
+              <h3>Bash</h3>
+        </div>
+        </div>
+
+        <h2><i class="fa-solid fa-cubes"></i> <span data-i18n="skills_tools"></span></h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+          <i class="devicon-html5-plain colored"></i>
+            <h3>HTML</h3>
+          </div>
+            <div class="skill-item">
+              <i class="devicon-css3-plain colored"></i>
+              <h3>CSS</h3>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-json-plain colored"></i>
+              <h3>JSON</h3>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-git-plain colored"></i>
+              <h3>Git</h3>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-azuresqldatabase-plain colored"></i>
+                <h3>SQL</h3>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="Propos">
+      <h1 data-i18n="section_about_title"></h1>
+
+      <article class="propos-item">
+        <h2 data-i18n="about_pc_title"></h2>
+        <p data-i18n="about_pc_desc"></p>
+      </article>
+
+      <article class="propos-item">
+        <h2 data-i18n="about_sport_title"></h2>
+        <p data-i18n="about_sport_desc"></p>
+      </article>
+
+      <article class="propos-item">
+        <h2 data-i18n="about_culture_title"></h2>
+        <p data-i18n="about_culture_desc"></p>
+      </article>
+
+      <article class="propos-item">
+        <h2 data-i18n="about_travel_title"></h2>
+        <p data-i18n="about_travel_desc"></p>
+      </article>
+
+      <article class="propos-item full-width">
+        <h2 data-i18n="about_worlds_title"></h2>
+        <p data-i18n="about_worlds_desc"></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <!-- CV DOWNLOAD -->
+    <section id="Cv" class="cv-container">
+      <h2 data-i18n="section_cv_title"></h2>
+      <p data-i18n="section_cv_desc"></p>
+      <a href="MEDIA/CV_Jones_Aurelien.pdf" download="CV_Jones_Aurelien_(Ancien)" class="download-btn" data-i18n="section_cv_btn"></a>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="Contact" class="Contact">
+      <div class="contact-content">
+        <p class="copyright">© 2026 Aurélien Jones</p>
+        
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/aurélien-jones-87854a2b4/" rel="linkedIn">
+            <i class="icon icon-social-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/aurelien-jones" rel="github">
+            <i class="icon icon-social-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="JS/burger.js"></script>
+  <script src="JS/canvas.js"></script>
+  <script src="JS/lang.js"></script>
+  <script src="JS/main.js"></script>
+
+</body>
+</html>

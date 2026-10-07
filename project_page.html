@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Jones Aurelien</title>
+    <link rel="stylesheet" href="CSS/Nav.css">
+    <link rel="stylesheet" href="CSS/Second.css">
+    <link rel="stylesheet" href="CSS/Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="nav-container scrolled">
+    <a href="#" class="open-btn icon icon-menu"></a>
+
+    <nav class="burger second">
+        <a href="#" class="close-btn">X</a>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+            <div class="parametre">
+                <li> <div class="lang-switcher">
+                        <button id="lang-toggle-btn" onclick="toggleLanguage()">
+                        <span id="lang-toggle-flag" class="fp"></span> 
+                        <span id="lang-toggle-text"></span>
+                        </button>
+                    </div>
+                </li>
+                <li><button id="theme-toggle">Theme</button></li>
+            </div>
+        </ul>
+    </nav>
+    </div>
+
+
+    <main class="project-detailed-view">
+
+    <section class="project-detail-section">
+        <h1 data-i18n="2nd_p1_title"></h1>
+        <div class="project-detail-container">
+            <div class="project-text-side">
+                <p data-i18n="2nd_p1_desc_p1"></p>
+                <p data-i18n="2nd_p1_desc_p2"></p>
+            </div>
+            <div class="project-image-side">
+                <img src="MEDIA/Projet_chatbot.png" alt="Project 2 Showcase">
+            </div>
+        </div>
+    </section>
+
+    <section class="project-detail-section">
+        <h1 data-i18n="2nd_p2_title"></h1>
+        <div class="project-detail-container">
+            <div class="project-text-side">
+                <p data-i18n="2nd_p2_desc_p1"></p>
+                <p data-i18n="2nd_p2_desc_p2"></p>
+            </div>
+            <div class="project-image-side">
+                <img src="MEDIA/Projet_Quizz.png" alt="Project 3 Showcase">
+            </div>
+        </div>
+    </section>
+
+    <section class="project-detail-section">
+        <h1 data-i18n="2nd_p3_title"></h1>
+        <div class="project-detail-container">
+            <div class="project-text-side">
+                <p data-i18n="2nd_p3_desc_p1"></p>
+                <p data-i18n="2nd_p3_desc_p2"></p>
+            </div>
+            <div class="project-image-side">
+                <img src="MEDIA/Projet_OpenFoodFacts.png" alt="Project 1 Showcase">
+            </div>
+        </div>
+    </section>
+    
+    </main>
+
+
+    <footer>
+    <section id="Contact" class="Contact">
+        <div class="contact-content">
+        <p class="copyright">© 2026 Aurélien Jones</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/aurélien-jones-87854a2b4/" rel="linkedIn">
+            <i class="icon icon-social-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/aurelien-jones" rel="github">
+            <i class="icon icon-social-github"></i> GitHub
+            </a>
+        </div>
+        </div>
+    </section>
+    </footer>
+
+</body>
+    <script src="JS/burger.js"></script>
+    <script src="JS/lang.js"></script>
+    <script src="JS/Second.js"></script>
+</html>

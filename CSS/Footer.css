@@ -1,0 +1,99 @@
+/* =========================================
+    CV SECTION
+   ========================================= */
+
+.cv-container {
+  background-color: var(--color-bg-second);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cv-container h2 {
+  color: var(--color-accent);
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.cv-container p {
+  font-size: 1.2rem;
+  color: var(--color-text-second);
+  margin-bottom: 30px;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-border);
+  color: var(--color-text);
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  cursor: pointer;
+
+    box-shadow:
+    0 4px 10px var(--color-accent),
+    inset 0 1px 0 var(--color-border);
+}
+
+.download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px var(--color-accent);
+  color: var(--color-accent);
+  filter: brightness(1.1);
+}
+
+.download-btn .icon {
+  font-size: 1.2rem;
+}
+
+
+/* =========================================
+   CONTACT / FOOTER SECTION
+   ========================================= */
+
+.Contact {
+  background-color: var(--color-bg); 
+  border-top: 1px solid var(--color-border);
+  padding: 20px 30px;
+}
+
+.contact-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.Contact .copyright {
+  color: var(--color-text-second);
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.Contact .social-links {
+  display: flex;
+  gap: 25px;
+}
+
+.Contact .social-links a {
+  color: var(--color-text-second);
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.Contact .social-links a:hover {
+  color: var(--color-accent);
+  transform: translateY(-2px);
+}
