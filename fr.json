@@ -5,6 +5,8 @@
     "nav_about": "À propos",
     "nav_cv": "CV",
     "nav_contact": "Contact",
+    
+    
     "section_experience_title": "Projet professionnel",
     "experience_project1_title": "Projet d’analyse et de nettoyage de base de données",
     "experience_project1_desc": "Exploitation de requêtes SQL pour extraire, nettoyer et structurer des données issues d’une base de données. Les informations ont ensuite été exportées au format CSV, aboutissant à la création d’un rapport synthétique présentant les résultats obtenus et les principaux enseignements tirés de l’analyse. Ce projet met en œuvre des compétences en gestion de bases de données, en analyse de données et en rédaction de rapports.",
@@ -13,6 +15,8 @@
     "experience_project3_title": "Quiz interactif en ligne",
     "experience_project3_desc": "Quiz en ligne développé avec la framework Flask en Python, générant un résultat personnalisé à partir des réponses de l'utilisateur. Ce projet met en œuvre la création d'une interfaces web, le traitement de formulaires et la logique métier côté serveur.",
     "experience_click_info": "Cliquez pour plus de détails →",
+    
+    
     "section_skills_title": "Compétences",
     "skills_languages": "Langues",
     "skills_fr_title": "Français",
@@ -21,20 +25,25 @@
     "skills_en_desc": "Langue maternelle / Bilingue",
     "skills_tech": "Programmation & Technologies",
     "skills_tools": "Technologies & Formats",
+    
+    
     "section_about_title": "À propos",
-    "about_pc_title": "Construction de mon PC sur mesure",
-    "about_pc_desc": "L'un de mes projets les plus stimulants a été de concevoir et monter mon propre ordinateur. De la recherche comparative des composants (CPU, GPU, RAM) jusqu'à l'assemblage final, j'ai veillé à l'optimisation du flux d'air et du câblage. Cette expérience a forgé mes compétences en résolution de problèmes et en gestion de projet technique.",
-    "about_sport_title": "Parcours sportif",
-    "about_sport_desc": "La natation et le triathlon m'ont inculqué la rigueur et la persévérance dès le plus jeune âge. Aujourd'hui, je cultive cet équilibre via la musculation et la course à pied. Pour moi, le sport est bien plus qu'une activité physique : c'est un pilier essentiel pour maintenir un équilibre corps-esprit et une discipline quotidienne.",
-    "about_culture_title": "Double culture & Langues",
-    "about_culture_desc": "Évoluant dans un environnement bilingue français-anglais depuis mon enfance, je navigue avec aisance entre ces deux cultures. Cette dualité linguistique, renforcée par mes liens familiaux à l'étranger, m'apporte une vision du monde ouverte, diverse et une grande adaptabilité dans des contextes internationaux.",
-    "about_travel_title": "Le voyage & l'exploration",
-    "about_travel_desc": "Passionné par la découverte, j'ai parcouru les massifs alpins pour le ski et exploré la richesse des régions françaises, de la Bretagne aux Pyrénées. Chaque voyage est une opportunité de s'immerger dans des traditions locales et de s'émerveiller devant la diversité des paysages, nourrissant constamment ma curiosité.",
-    "about_worlds_title": "Exploration des Mondes Imaginaires & Créativité",
-    "about_worlds_desc": "Passionné par l’imaginaire, j’explore la richesse des univers de la fiction à travers le cinéma, les jeux vidéo, les mangas et les light novels. Je suis particulièrement fasciné par la fantasy et l'art subtil avec lequel les créateurs s'approprient les multiples cultures de notre monde, leurs traditions et leurs modes de vie, pour les transposer dans le cadre intime des récits qu'ils façonnent. Ce processus va bien au-delà de la simple inspiration : c'est une véritable réinvention où les structures sociétales réelles, les mythologies anciennes et les différents panthéons historiques se mêlent pour donner vie à de subtils microcosmes. Qu'il s'agisse de revisiter des légendes ancestrales ou de fusionner des coutumes issues de continents opposés, chaque œuvre devient pour moi un terrain d'observation captivant. Décoder ces influences uniques et m'émerveiller devant la cohérence de ces mondes hybrides nourrit constamment ma propre curiosité, mon esprit d'analyse et mon ouverture sur le monde.",
+    "about_intro_title": "Mon projet professionnel",
+    "about_intro_desc": "Actuellement à la recherche d'un stage, avec l'objectif de poursuivre sur une alternance, je souhaite mettre mes compétences au service de projets ambitieux. Curieux, rigoureux et doté d'un fort esprit d'équipe, je cherche à m'investir pleinement au sein d'un environnement dynamique où je pourrai apprendre, contribuer et grandir professionnellement.",
+    "about_pc_title": "Esprit d'analyse & Gestion de projet",
+    "about_pc_desc": "La conception et l'assemblage de mon propre PC sur mesure m'ont permis de développer une démarche méthodique : benchmark de composants, optimisation technique et résolution de problèmes. Cette expérience reflète ma rigueur et ma capacité à mener un projet technique de A à Z.",
+    "about_sport_title": "Discipline & Esprit d'équipe",
+    "about_sport_desc": "Pratiquant la natation, le triathlon, la course à pied et la musculation, le sport est mon levier pour cultiver le dépassement de soi et la persévérance. Ces valeurs m'apportent une grande résilience, un esprit collectif solide et une discipline quotidienne transposable dans mes projets professionnels.",
+    "about_culture_title": "Adaptabilité & Communication multiculturelle",
+    "about_culture_desc": "Évoluant dans un environnement bilingue français-anglais depuis l'enfance, je navigue aisément dans des contextes multiculturels. Cette aisance relationnelle et mon ouverture d'esprit me permettent de m'intégrer rapidement et de communiquer efficacement en équipe.",
+    "about_worlds_title": "Curiosité, Créativité & Esprit critique",
+    "about_worlds_desc": "Passionné par les univers de fiction, j'aime analyser la manière dont les créateurs réinventent les cultures, mythologies et structures sociétales réelles. Cette passion alimente au quotidien ma créativité, ma capacité de synthèse et ma sensibilité aux détails.",
+
+
     "section_cv_title": "Curriculum Vitae",
     "section_cv_desc": "Pour une vision plus détaillée de mes compétences et de mon expérience, je vous invite à consulter mon CV ci-dessous.",
     "section_cv_btn": "Télécharger le CV (PDF)",
+
 
     "2nd_return": "Revenir sur mon portfolio",
     "2nd_p1_title": "Chatbot Java Intelligent et Interface Web",
