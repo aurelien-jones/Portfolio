@@ -1,5 +1,5 @@
 {
-    "canvas_subtitle": "Computer Science Student - IUT2 Université Grenoble Alpes",
+    "canvas_subtitle": "Computer Science Student - BUT2 - University Grenoble Alpes",
     "nav_experience": "Professional projects",
     "nav_skills": "Skills",
     "nav_about": "About",
@@ -8,12 +8,16 @@
 
 
     "section_experience_title": "Professional projects",
-    "experience_project1_title": "Database Analysis and Cleaning Project",
-    "experience_project1_desc": "Used SQL queries to extract, clean, and structure data from a database. The information was then exported to CSV format, resulting in the creation of a summary report presenting the results obtained and the key insights derived from the analysis. This project demonstrates skills in database management, data analysis, and report writing.",
-    "experience_project2_title": "Smart chatbot project",
-    "experience_project2_desc": "Development of a Java-based chatbot capable of intelligently responding to user questions. The program analyzes incoming messages and generates suitable responses based on the structure of the requests. This project applies skills in object-oriented programming and algorithmic logic.",
-    "experience_project3_title": "Online interactive quiz",
-    "experience_project3_desc": "Online quiz developed using the Flask framework in Python, generating a personalized result based on user answers. This project implements the creation of web interfaces, form processing, and server-side business logic.",
+    "experience_project_analyse_title": "Database Analysis and Cleaning",
+    "experience_project_analyse_desc": "Used SQL queries to extract, clean, and structure data from a database. The information was then exported to CSV format, resulting in the creation of a summary report presenting the results obtained and the key insights derived from the analysis. This project demonstrates skills in database management, data analysis, and report writing.",
+    "experience_project_chatbot_title": "Smart Chatbot",
+    "experience_project_chatbot_desc": "Development of a Java-based chatbot capable of intelligently responding to user questions. The program analyzes incoming messages and generates suitable responses based on the structure of the requests. This project applies skills in object-oriented programming and algorithmic logic.",
+    "experience_project_quiz_title": "Online Interactive Quiz",
+    "experience_project_quiz_desc": "Online quiz developed using the Flask framework in Python, generating a personalized result based on user answers. This project implements the creation of web interfaces, form processing, and server-side business logic.",
+    "experience_project_genevent_title": "Event Manager Application",
+    "experience_project_genevent_desc": "Development of a local desktop application in Java and JavaFX dedicated to the management of a music festivals. The program enables the planning and administration of all logistical aspects of events: festival creation, artist management, venue/terrain layout, contract handling, and coordination of service providers and vendors. This project demonstrates proficiency in object-oriented programming, graphical user interface design (JavaFX), and relational data structuring.",
+    "experience_project_snake_title": "Interactive Snake Game",
+    "experience_project_snake_desc": "Development of a Snake game in C, compiled to WebAssembly for execution in the web browser. The program manages the game's entire algorithmic logic: collision handling, snake movement, random food generation, and scoring system. This project showcases skills in low-level programming, WebAssembly compilation, and algorithmic logic applied to video games.",
     "experience_click_info": "Click for more details →",
 
 

@@ -1,19 +1,23 @@
 {
-    "canvas_subtitle": "Étudiant en informatique - IUT2 Université Grenoble Alpes",
-    "nav_experience": "Projet professionnel",
+    "canvas_subtitle": "Étudiant en informatique - BUT2 - Université Grenoble Alpes",
+    "nav_experience": "Projets professionnels",
     "nav_skills": "Compétences",
     "nav_about": "À propos",
     "nav_cv": "CV",
     "nav_contact": "Contact",
     
     
-    "section_experience_title": "Projet professionnel",
-    "experience_project1_title": "Projet d’analyse et de nettoyage de base de données",
-    "experience_project1_desc": "Exploitation de requêtes SQL pour extraire, nettoyer et structurer des données issues d’une base de données. Les informations ont ensuite été exportées au format CSV, aboutissant à la création d’un rapport synthétique présentant les résultats obtenus et les principaux enseignements tirés de l’analyse. Ce projet met en œuvre des compétences en gestion de bases de données, en analyse de données et en rédaction de rapports.",
-    "experience_project2_title": "Projet de chatbot intelligent",
-    "experience_project2_desc": "Développement d’un chatbot en Java capable de répondre de manière intelligente aux questions des utilisateurs. Le programme analyse les messages reçus et génère des réponses adaptées en fonction de la forme des requêtes. Ce projet met en œuvre la compétences en programmation orientée objet, et en logique algorithmique.",
-    "experience_project3_title": "Quiz interactif en ligne",
-    "experience_project3_desc": "Quiz en ligne développé avec la framework Flask en Python, générant un résultat personnalisé à partir des réponses de l'utilisateur. Ce projet met en œuvre la création d'une interfaces web, le traitement de formulaires et la logique métier côté serveur.",
+    "section_experience_title": "Projets professionnels",
+    "experience_project_analyse_title": "Analyse et Nettoyage de Base de Données",
+    "experience_project_analyse_desc": "Exploitation de requêtes SQL pour extraire, nettoyer et structurer des données issues d’une base de données. Les informations ont ensuite été exportées au format CSV, aboutissant à la création d’un rapport synthétique présentant les résultats obtenus et les principaux enseignements tirés de l’analyse. Ce projet met en œuvre des compétences en gestion de bases de données, en analyse de données et en rédaction de rapports.",
+    "experience_project_chatbot_title": "Chatbot Intelligent",
+    "experience_project_chatbot_desc": "Développement d’un chatbot en Java capable de répondre de manière intelligente aux questions des utilisateurs. Le programme analyse les messages reçus et génère des réponses adaptées en fonction de la forme des requêtes. Ce projet met en œuvre la compétences en programmation orientée objet, et en logique algorithmique.",
+    "experience_project_quiz_title": "Quiz Interactif en Ligne",
+    "experience_project_quiz_desc": "Quiz en ligne développé avec la framework Flask en Python, générant un résultat personnalisé à partir des réponses de l'utilisateur. Ce projet met en œuvre la création d'une interfaces web, le traitement de formulaires et la logique métier côté serveur.",
+    "experience_project_genevent_title": "Application de Gestion d'Événements",
+    "experience_project_genevent_desc": "Développement d'une application locale en Java et JavaFX dédiée à la gestion des festivals de musique. Le programme permet de planifier et d'administrer les différents aspects logistiques des événements : création du festival, gestion des artistes, configuration du terrain, gestion des contracts, et coordination des prestataires de services. Ce projet met en œuvre des compétences en programmation orientée objet, en conception d'interfaces graphiques (JavaFX) et en structuration de données relationnelles.",
+    "experience_project_snake_title": "Jeu Snake Interactif",
+    "experience_project_snake_desc": "Développement d’un jeu Snake en langage C, compilé en WebAssembly pour permettre une exécution dans le navigateur web. Le programme gère l'ensemble de la logique algorithmique du jeu : gestion des collisions, déplacements du serpent, génération aléatoire de la nourriture et système de score. Ce projet met en œuvre des compétences en programmation bas niveau, en compilation vers WebAssembly, ainsi qu'en logique algorithmique appliquée aux jeux vidéo.",
     "experience_click_info": "Cliquez pour plus de détails →",
     
     
