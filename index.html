@@ -47,44 +47,100 @@
     <section id="Experience">
       <h1 data-i18n="section_experience_title"></h1>
       <div class="project-grid">
-        
-         <!-- Snake -->
+        <!-- Snake -->
         <div class="project-item">
           <h2 data-i18n="experience_project_snake_title"></h2>
           <p data-i18n="experience_project_snake_desc"></p>
-          <a class="project-hint" href="project_page.html#snake" data-i18n="experience_click_info"></a>
+          <a class="project-hint" href="project_page.html#snake" data-project="snake" data-i18n="experience_click_info"></a>
         </div>
-
-         <!-- Genevent -->
+        <!-- Genevent -->
         <div class="project-item">
           <h2 data-i18n="experience_project_genevent_title"></h2>
           <p data-i18n="experience_project_genevent_desc"></p>
-          <a class="project-hint" href="project_page.html#genevent" data-i18n="experience_click_info"></a>
+          <a class="project-hint" href="project_page.html#genevent" data-project="genevent" data-i18n="experience_click_info"></a>
         </div>
-
         <!-- Chatbot -->
         <div class="project-item">
           <h2 data-i18n="experience_project_chatbot_title"></h2>
           <p data-i18n="experience_project_chatbot_desc"></p>
-          <a class="project-hint" href="project_page.html" data-i18n="experience_click_info"></a>
+          <a class="project-hint" href="project_page.html" data-project="chatbot" data-i18n="experience_click_info"></a>
         </div>
-
         <!-- Quiz -->
         <div class="project-item">
           <h2 data-i18n="experience_project_quiz_title"></h2>
           <p data-i18n="experience_project_quiz_desc"></p>
-          <a class="project-hint" href="project_page.html" data-i18n="experience_click_info"></a>
+          <a class="project-hint" href="project_page.html" data-project="quiz" data-i18n="experience_click_info"></a>
         </div>
-
         <!-- Analyse -->
         <div class="project-item">
           <h2 data-i18n="experience_project_analyse_title"></h2>
           <p data-i18n="experience_project_analyse_desc"></p>
-          <a class="project-hint" href="project_page.html" data-i18n="experience_click_info"></a>
+          <a class="project-hint" href="project_page.html" data-project="analyse" data-i18n="experience_click_info"></a>
         </div>
-
       </div>
     </section>
+
+    <!-- PROJECT OVERLAY -->
+    <dialog id="project-modal" class="project-modal" aria-label="Project details">
+      <div class="modal-panel">
+        <button type="button" class="modal-close" aria-label="Close">&times;</button>
+
+        <article class="project-detail" data-project="snake" hidden>
+          <!-- Write the Snake project here -->
+          <section>WORK IN PROGRESS</section>
+        </article>
+
+        <article class="project-detail" data-project="genevent" hidden>
+          <!-- Write the Genevent project here -->
+          <section>WORK IN PROGRESS</section>
+        </article>
+
+        <article class="project-detail" data-project="chatbot" hidden>
+          <section class="project-detail-section">
+            <h1 data-i18n="2nd_p1_title"></h1>
+            <div class="project-detail-container">
+              <div class="project-text-side">
+                <p data-i18n="2nd_p1_desc_p1"></p>
+                <p data-i18n="2nd_p1_desc_p2"></p>
+              </div>
+              <div class="project-image-side">
+                <img src="MEDIA/Projet_chatbot.png" alt="Project 2 Showcase">
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <article class="project-detail" data-project="quiz" hidden>
+          <section class="project-detail-section">
+            <h1 data-i18n="2nd_p2_title"></h1>
+            <div class="project-detail-container">
+                <div class="project-text-side">
+                  <p data-i18n="2nd_p2_desc_p1"></p>
+                  <p data-i18n="2nd_p2_desc_p2"></p>
+                </div>
+                <div class="project-image-side">
+                  <img src="MEDIA/Projet_Quizz.png" alt="Project 3 Showcase">
+                </div>
+            </div>
+          </section>
+        </article>
+
+        <article class="project-detail" data-project="analyse" hidden>
+          <section class="project-detail-section">
+              <h1 data-i18n="2nd_p3_title"></h1>
+              <div class="project-detail-container">
+                <div class="project-text-side">
+                  <p data-i18n="2nd_p3_desc_p1"></p>
+                  <p data-i18n="2nd_p3_desc_p2"></p>
+                </div>
+                <div class="project-image-side">
+                  <img src="MEDIA/Projet_OpenFoodFacts.png" alt="Project 1 Showcase">
+                </div>
+              </div>
+          </section>
+        </article>
+      </div>
+    </dialog>
 
     <!-- Competence SECTION -->
     <section id="Competence">
@@ -191,6 +247,7 @@
         <p data-i18n="about_worlds_desc"></p>
       </article>
     </section>
+
   </main>
 
   <footer>
@@ -222,6 +279,7 @@
   <script src="JS/canvas.js"></script>
   <script src="JS/lang.js"></script>
   <script src="JS/main.js"></script>
+  <script src="JS/project-modal.js"></script>
 
 </body>
 </html>
